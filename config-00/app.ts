@@ -1,4 +1,6 @@
-const userName = "Maximilian";
+let age;
+age = 30;
 
+const userName = "Maximilian";
 
 console.log(userName);

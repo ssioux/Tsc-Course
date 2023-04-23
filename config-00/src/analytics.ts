@@ -1,6 +1,9 @@
-console.log("sending...");
+let logged;
 
-// for compile all the files in the project
-// tsc --init
-// tsc
-// tsc -w
+function sendAnalitycs(data: string) {
+  console.log("data", data);
+  logged = true;
+  console.log("logged", logged);
+}
+
+sendAnalitycs("The Data");
